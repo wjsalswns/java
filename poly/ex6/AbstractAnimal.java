@@ -1,10 +1,7 @@
-package poly.ex3;
+package poly.ex6;
 
-// 추상 클래스
-public abstract class Animal {
-    // 추상 메서드
+public abstract class AbstractAnimal{
     public abstract void sound();
-
     public void move(){
         System.out.println("동물이 움직인다.");
     }
